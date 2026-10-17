@@ -1,0 +1,4 @@
+{:paths ["src"]
+ :aliases {:run {:main-opts ["-m" "consultas.main"]}
+           :test {:extra-paths ["test"]
+                  :main-opts ["-m" "consultas.test-runner"]}}}
